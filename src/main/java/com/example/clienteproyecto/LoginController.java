@@ -14,5 +14,6 @@ public class LoginController {
     public void botonLogin(ActionEvent actionEvent) {
         ListaClientes listaClientes = new ListaClientes(nickname.getText());
         System.out.println(nickname.getText());
+        //TODO
     }
 }
